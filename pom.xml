@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!--asdasfdsafasdfsafasdfas-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 <<<<<<< HEAD
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -41,9 +41,9 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-  <!--Ìí¼ÓËùÐèÒÀÀµ-->
+  <!--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
   <dependencies>
-    <!--==========ÖÐÁ¢==========-->
+    <!--==========ï¿½ï¿½ï¿½ï¿½==========-->
 
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
@@ -54,7 +54,7 @@
 <<<<<<< HEAD
     <!--æ–‡ä»¶ä¸Šä¼ -->
 =======
-    <!--3¸öÎÄ¼þÉÏ´«ioÒÀÀµ-->
+    <!--3ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ï´ï¿½ioï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>commons-fileupload</groupId>
@@ -69,7 +69,7 @@
 <<<<<<< HEAD
     <!--1.1.æ·»åŠ mysqlä¾èµ–-->
 =======
-    <!--1.1.Ìí¼ÓmysqlÒÀÀµ-->
+    <!--1.1.ï¿½ï¿½ï¿½mysqlï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>mysql</groupId>
@@ -79,7 +79,7 @@
 <<<<<<< HEAD
     <!--2.2.æ·»åŠ lombokçš„ä¾èµ–-->
 =======
-    <!--2.2.Ìí¼ÓlombokµÄÒÀÀµ-->
+    <!--2.2.ï¿½ï¿½ï¿½lombokï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.projectlombok</groupId>
@@ -90,7 +90,7 @@
 <<<<<<< HEAD
     <!--3.3.æ·»åŠ junitçš„ä¾èµ–-->
 =======
-    <!--3.3.Ìí¼ÓjunitµÄÒÀÀµ-->
+    <!--3.3.ï¿½ï¿½ï¿½junitï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>junit</groupId>
@@ -101,7 +101,7 @@
 <<<<<<< HEAD
     <!--4.4.æ·»åŠ æ—¥å¿—çš„ä¾èµ–-->
 =======
-    <!--4.4.Ìí¼ÓÈÕÖ¾µÄÒÀÀµ-->
+    <!--4.4.ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -112,7 +112,7 @@
 <<<<<<< HEAD
     <!--5.5.åˆ†é¡µæ’ä»¶çš„ä¾èµ–-->
 =======
-    <!--5.5.·ÖÒ³²å¼þµÄÒÀÀµ-->
+    <!--5.5.ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>com.github.pagehelper</groupId>
@@ -122,7 +122,7 @@
 <<<<<<< HEAD
     <!--6.6.åˆ†é¡µæ’ä»¶çš„ä¾èµ–-->
 =======
-    <!--6.6.·ÖÒ³²å¼þµÄÒÀÀµ-->
+    <!--6.6.ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>com.github.jsqlparser</groupId>
@@ -134,7 +134,7 @@
 <<<<<<< HEAD
     <!--7.1.æ·»åŠ mybatisçš„jar-->
 =======
-    <!--7.1.Ìí¼ÓmybatisµÄjar-->
+    <!--7.1.ï¿½ï¿½ï¿½mybatisï¿½ï¿½jar-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -146,8 +146,8 @@
     <!--==========springå•ç‹¬éœ€æ±‚==========-->
     <!--8.1.spring-coreä¾èµ–-->
 =======
-    <!--==========springµ¥¶ÀÐèÇó==========-->
-    <!--8.1.spring-coreÒÀÀµ-->
+    <!--==========springï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½==========-->
+    <!--8.1.spring-coreï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.springframework</groupId>
@@ -157,7 +157,7 @@
 <<<<<<< HEAD
     <!--9.2.spring-beansä¾èµ–-->
 =======
-    <!--9.2.spring-beansÒÀÀµ-->
+    <!--9.2.spring-beansï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.springframework</groupId>
@@ -167,7 +167,7 @@
 <<<<<<< HEAD
     <!--10.3.spring-contextä¾èµ–-->
 =======
-    <!--10.3.spring-contextÒÀÀµ-->
+    <!--10.3.spring-contextï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.springframework</groupId>
@@ -177,7 +177,7 @@
 <<<<<<< HEAD
     <!--11.4.spring-expressionä¾èµ–-->
 =======
-    <!--11.4.spring-expressionÒÀÀµ-->
+    <!--11.4.spring-expressionï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.springframework</groupId>
@@ -187,7 +187,7 @@
 <<<<<<< HEAD
     <!--12.5.commons-loggingä¾èµ–-->
 =======
-    <!--12.5.commons-loggingÒÀÀµ-->
+    <!--12.5.commons-loggingï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>commons-logging</groupId>
@@ -197,7 +197,7 @@
 <<<<<<< HEAD
     <!--13.6.æ·»åŠ spring-aopéœ€è¦çš„ä¸‰ä¸ªä¾èµ–   1-->
 =======
-    <!--13.6.Ìí¼Óspring-aopÐèÒªµÄÈý¸öÒÀÀµ   1-->
+    <!--13.6.ï¿½ï¿½ï¿½spring-aopï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   1-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.springframework</groupId>
@@ -207,7 +207,7 @@
 <<<<<<< HEAD
     <!--14.7.æ·»åŠ spring-aopéœ€è¦çš„ä¸‰ä¸ªä¾èµ–   2-->
 =======
-    <!--14.7.Ìí¼Óspring-aopÐèÒªµÄÈý¸öÒÀÀµ   2-->
+    <!--14.7.ï¿½ï¿½ï¿½spring-aopï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   2-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>aopalliance</groupId>
@@ -217,7 +217,7 @@
 <<<<<<< HEAD
     <!--15.8.æ·»åŠ spring-aopéœ€è¦çš„ä¸‰ä¸ªä¾èµ–   3-->
 =======
-    <!--15.8.Ìí¼Óspring-aopÐèÒªµÄÈý¸öÒÀÀµ   3-->
+    <!--15.8.ï¿½ï¿½ï¿½spring-aopï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   3-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.aspectj</groupId>
@@ -229,8 +229,8 @@
     <!--==========springä¸Žmybatisé›†æˆæ‰€éœ€==========-->
     <!--16.1.æ·»åŠ spring-mybatisä¾èµ–-->
 =======
-    <!--==========springÓëmybatis¼¯³ÉËùÐè==========-->
-    <!--16.1.Ìí¼Óspring-mybatisÒÀÀµ-->
+    <!--==========springï¿½ï¿½mybatisï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½==========-->
+    <!--16.1.ï¿½ï¿½ï¿½spring-mybatisï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -240,7 +240,7 @@
 <<<<<<< HEAD
     <!--17.2.æ·»åŠ spring-jdbcä¾èµ–-->
 =======
-    <!--17.2.Ìí¼Óspring-jdbcÒÀÀµ-->
+    <!--17.2.ï¿½ï¿½ï¿½spring-jdbcï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.springframework</groupId>
@@ -250,7 +250,7 @@
 <<<<<<< HEAD
     <!--18.3.æ·»åŠ commons-dbcpä¾èµ–-->
 =======
-    <!--18.3.Ìí¼Ócommons-dbcpÒÀÀµ-->
+    <!--18.3.ï¿½ï¿½ï¿½commons-dbcpï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>commons-dbcp</groupId>
@@ -260,7 +260,7 @@
 <<<<<<< HEAD
     <!--19.4.æ·»åŠ commons-poolä¾èµ–-->
 =======
-    <!--19.4.Ìí¼Ócommons-poolÒÀÀµ-->
+    <!--19.4.ï¿½ï¿½ï¿½commons-poolï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>commons-pool</groupId>
@@ -272,8 +272,8 @@
     <!--==========springMVCå•ç‹¬æ‰€éœ€==========-->
     <!--20.1.æ·»åŠ servlet-apiä¾èµ–-->
 =======
-    <!--==========springMVCµ¥¶ÀËùÐè==========-->
-    <!--20.1.Ìí¼Óservlet-apiÒÀÀµ-->
+    <!--==========springMVCï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½==========-->
+    <!--20.1.ï¿½ï¿½ï¿½servlet-apiï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -284,7 +284,7 @@
 <<<<<<< HEAD
     <!--21.2.æ·»åŠ spring-webä¾èµ–-->
 =======
-    <!--21.2.Ìí¼Óspring-webÒÀÀµ-->
+    <!--21.2.ï¿½ï¿½ï¿½spring-webï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.springframework</groupId>
@@ -294,7 +294,7 @@
 <<<<<<< HEAD
     <!--22.3.æ·»åŠ spring-webmvcä¾èµ–-->
 =======
-    <!--22.3.Ìí¼Óspring-webmvcÒÀÀµ-->
+    <!--22.3.ï¿½ï¿½ï¿½spring-webmvcï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.springframework</groupId>
@@ -304,7 +304,7 @@
 <<<<<<< HEAD
     <!--23.4.æ·»åŠ fastjsonä¾èµ–-->
 =======
-    <!--23.4.Ìí¼ÓfastjsonÒÀÀµ-->
+    <!--23.4.ï¿½ï¿½ï¿½fastjsonï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>com.alibaba</groupId>
@@ -314,7 +314,7 @@
 <<<<<<< HEAD
     <!--24.5.æ·»åŠ elè¡¨è¾¾å¼çš„jstlä¾èµ–-->
 =======
-    <!--24.5.Ìí¼Óel±í´ïÊ½µÄjstlÒÀÀµ-->
+    <!--24.5.ï¿½ï¿½ï¿½elï¿½ï¿½ï¿½Ê½ï¿½ï¿½jstlï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -324,7 +324,7 @@
 <<<<<<< HEAD
     <!--25.6.æ·»åŠ elè¡¨è¾¾å¼çš„jstl-apiä¾èµ–-->
 =======
-    <!--25.6.Ìí¼Óel±í´ïÊ½µÄjstl-apiÒÀÀµ-->
+    <!--25.6.ï¿½ï¿½ï¿½elï¿½ï¿½ï¿½Ê½ï¿½ï¿½jstl-apiï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>javax.servlet.jsp.jstl</groupId>
@@ -334,7 +334,7 @@
 <<<<<<< HEAD
     <!--26.7æ·»åŠ elè¡¨è¾¾å¼æ‰€éœ€standardä¾èµ–-->
 =======
-    <!--26.7Ìí¼Óel±í´ïÊ½ËùÐèstandardÒÀÀµ-->
+    <!--26.7ï¿½ï¿½ï¿½elï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½standardï¿½ï¿½ï¿½ï¿½-->
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>taglibs</groupId>
@@ -344,7 +344,7 @@
 <<<<<<< HEAD
     <!--æ·»åŠ æ—¥å¿—çš„ä¾èµ–
 =======
-    <!--Ìí¼ÓÈÕÖ¾µÄÒÀÀµ
+    <!--ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 >>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
     <dependency>
       <groupId>org.slf4j</groupId>

@@ -19,60 +19,60 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-  <!--Ìí¼ÓËùÐèÒÀÀµ-->
+  <!--æ·»åŠ æ‰€éœ€ä¾èµ–-->
   <dependencies>
-    <!--==========ÖÐÁ¢==========-->
+    <!--==========ä¸­ç«‹==========-->
 
     <dependency>
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
       <version>2.6</version>
     </dependency>
-    <!--3¸öÎÄ¼þÉÏ´«ioÒÀÀµ-->
+    <!--3ä¸ªæ–‡ä»¶ä¸Šä¼ ioä¾èµ–-->
     <dependency>
       <groupId>commons-fileupload</groupId>
       <artifactId>commons-fileupload</artifactId>
-      <version>1.3.1</version>
+      <version>1.3.3</version>
     </dependency>
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.4</version>
     </dependency>
-    <!--1.1.Ìí¼ÓmysqlÒÀÀµ-->
+    <!--1.1.æ·»åŠ mysqlä¾èµ–-->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.1</version>
     </dependency>
-    <!--2.2.Ìí¼ÓlombokµÄÒÀÀµ-->
+    <!--2.2.æ·»åŠ lombokçš„ä¾èµ–-->
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.0</version>
       <scope>provided</scope>
     </dependency>
-    <!--3.3.Ìí¼ÓjunitµÄÒÀÀµ-->
+    <!--3.3.æ·»åŠ junitçš„ä¾èµ–-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
-    <!--4.4.Ìí¼ÓÈÕÖ¾µÄÒÀÀµ-->
+    <!--4.4.æ·»åŠ æ—¥å¿—çš„ä¾èµ–-->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
       <version>1.7.25</version>
       <scope>test</scope>
     </dependency>
-    <!--5.5.·ÖÒ³²å¼þµÄÒÀÀµ-->
+    <!--5.5.åˆ†é¡µæ’ä»¶çš„ä¾èµ–-->
     <dependency>
       <groupId>com.github.pagehelper</groupId>
       <artifactId>pagehelper</artifactId>
       <version>5.1.2</version>
     </dependency>
-    <!--6.6.·ÖÒ³²å¼þµÄÒÀÀµ-->
+    <!--6.6.åˆ†é¡µæ’ä»¶çš„ä¾èµ–-->
     <dependency>
       <groupId>com.github.jsqlparser</groupId>
       <artifactId>jsqlparser</artifactId>
@@ -80,134 +80,134 @@
     </dependency>
 
     <!--==========mybatis==========-->
-    <!--7.1.Ìí¼ÓmybatisµÄjar-->
+    <!--7.1.æ·»åŠ mybatisçš„jar-->
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
       <version>3.4.6</version>
     </dependency>
 
-    <!--==========springµ¥¶ÀÐèÇó==========-->
-    <!--8.1.spring-coreÒÀÀµ-->
+    <!--==========springå•ç‹¬éœ€æ±‚==========-->
+    <!--8.1.spring-coreä¾èµ–-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
       <version>4.3.14.RELEASE</version>
     </dependency>
-    <!--9.2.spring-beansÒÀÀµ-->
+    <!--9.2.spring-beansä¾èµ–-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
       <version>4.3.14.RELEASE</version>
     </dependency>
-    <!--10.3.spring-contextÒÀÀµ-->
+    <!--10.3.spring-contextä¾èµ–-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
       <version>4.3.14.RELEASE</version>
     </dependency>
-    <!--11.4.spring-expressionÒÀÀµ-->
+    <!--11.4.spring-expressionä¾èµ–-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-expression</artifactId>
       <version>4.3.14.RELEASE</version>
     </dependency>
-    <!--12.5.commons-loggingÒÀÀµ-->
+    <!--12.5.commons-loggingä¾èµ–-->
     <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
     </dependency>
-    <!--13.6.Ìí¼Óspring-aopÐèÒªµÄÈý¸öÒÀÀµ   1-->
+    <!--13.6.æ·»åŠ spring-aopéœ€è¦çš„ä¸‰ä¸ªä¾èµ–   1-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
       <version>4.3.14.RELEASE</version>
     </dependency>
-    <!--14.7.Ìí¼Óspring-aopÐèÒªµÄÈý¸öÒÀÀµ   2-->
+    <!--14.7.æ·»åŠ spring-aopéœ€è¦çš„ä¸‰ä¸ªä¾èµ–   2-->
     <dependency>
       <groupId>aopalliance</groupId>
       <artifactId>aopalliance</artifactId>
       <version>1.0</version>
     </dependency>
-    <!--15.8.Ìí¼Óspring-aopÐèÒªµÄÈý¸öÒÀÀµ   3-->
+    <!--15.8.æ·»åŠ spring-aopéœ€è¦çš„ä¸‰ä¸ªä¾èµ–   3-->
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>
       <version>1.9.2</version>
     </dependency>
 
-    <!--==========springÓëmybatis¼¯³ÉËùÐè==========-->
-    <!--16.1.Ìí¼Óspring-mybatisÒÀÀµ-->
+    <!--==========springä¸Žmybatisé›†æˆæ‰€éœ€==========-->
+    <!--16.1.æ·»åŠ spring-mybatisä¾èµ–-->
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis-spring</artifactId>
       <version>1.3.2</version>
     </dependency>
-    <!--17.2.Ìí¼Óspring-jdbcÒÀÀµ-->
+    <!--17.2.æ·»åŠ spring-jdbcä¾èµ–-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
       <version>4.3.14.RELEASE</version>
     </dependency>
-    <!--18.3.Ìí¼Ócommons-dbcpÒÀÀµ-->
+    <!--18.3.æ·»åŠ commons-dbcpä¾èµ–-->
     <dependency>
       <groupId>commons-dbcp</groupId>
       <artifactId>commons-dbcp</artifactId>
       <version>1.4</version>
     </dependency>
-    <!--19.4.Ìí¼Ócommons-poolÒÀÀµ-->
+    <!--19.4.æ·»åŠ commons-poolä¾èµ–-->
     <dependency>
       <groupId>commons-pool</groupId>
       <artifactId>commons-pool</artifactId>
       <version>1.6</version>
     </dependency>
 
-    <!--==========springMVCµ¥¶ÀËùÐè==========-->
-    <!--20.1.Ìí¼Óservlet-apiÒÀÀµ-->
+    <!--==========springMVCå•ç‹¬æ‰€éœ€==========-->
+    <!--20.1.æ·»åŠ servlet-apiä¾èµ–-->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
       <version>2.5</version>
       <scope>provided</scope>
     </dependency>
-    <!--21.2.Ìí¼Óspring-webÒÀÀµ-->
+    <!--21.2.æ·»åŠ spring-webä¾èµ–-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
       <version>4.3.14.RELEASE</version>
     </dependency>
-    <!--22.3.Ìí¼Óspring-webmvcÒÀÀµ-->
+    <!--22.3.æ·»åŠ spring-webmvcä¾èµ–-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
       <version>4.3.14.RELEASE</version>
     </dependency>
-    <!--23.4.Ìí¼ÓfastjsonÒÀÀµ-->
+    <!--23.4.æ·»åŠ fastjsonä¾èµ–-->
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
       <version>1.2.47</version>
     </dependency>
-    <!--24.5.Ìí¼Óel±í´ïÊ½µÄjstlÒÀÀµ-->
+    <!--24.5.æ·»åŠ elè¡¨è¾¾å¼çš„jstlä¾èµ–-->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
-    <!--25.6.Ìí¼Óel±í´ïÊ½µÄjstl-apiÒÀÀµ-->
+    <!--25.6.æ·»åŠ elè¡¨è¾¾å¼çš„jstl-apiä¾èµ–-->
     <dependency>
       <groupId>javax.servlet.jsp.jstl</groupId>
       <artifactId>jstl-api</artifactId>
       <version>1.2</version>
     </dependency>
-    <!--26.7Ìí¼Óel±í´ïÊ½ËùÐèstandardÒÀÀµ-->
+    <!--26.7æ·»åŠ elè¡¨è¾¾å¼æ‰€éœ€standardä¾èµ–-->
     <dependency>
       <groupId>taglibs</groupId>
       <artifactId>standard</artifactId>
       <version>1.1.2</version>
     </dependency>
-    <!--Ìí¼ÓÈÕÖ¾µÄÒÀÀµ
+    <!--æ·»åŠ æ—¥å¿—çš„ä¾èµ–
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>

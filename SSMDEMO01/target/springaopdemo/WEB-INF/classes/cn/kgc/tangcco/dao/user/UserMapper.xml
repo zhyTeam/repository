@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.kgc.tangcco.dao.user.UserMapper">
+    <resultMap id="user" type="User">
+        <id property="id" column="su_id"/>
+        <result property="userRoleName" column="role_name"/>
+    </resultMap>
+    <select id="doLogin" resultType="User">
+        select * from smbms_user where userCode = #{code} and userPassword = #{password}
+    </select>
+    <select id="userList" resultMap="user">
+        SELECT su.*,su.id su_id,sr.roleName role_name
+        FROM smbms_user su INNER JOIN smbms_role sr ON su.userRole = sr.id
+        <trim prefix="where" prefixOverrides="and">
+            <if test="queryname!=null and queryname!=''">
+                su.userName like concat('%',#{queryname},'%')
+            </if>
+            <if test="queryUserRole!=null and queryUserRole!=0">
+                and su.userRole = #{queryUserRole}
+            </if>
+        </trim>
+    </select>
+    <select id="userNum" resultType="int">
+        select count(1)
+        from smbms_user su
+        <trim prefix="where" prefixOverrides="and">
+            <if test="queryname!=null and queryname!=''">
+                su.userName like concat('%',#{queryname},'%')
+            </if>
+            <if test="queryUserRole!=null and queryUserRole!=0">
+                and su.userRole = #{queryUserRole}
+            </if>
+        </trim>
+    </select>
+    <insert id="addUser" parameterType="User">
+        INSERT INTO smbms.smbms_user (userCode,userName,userPassword,gender,birthday,phone,address,userRole,createdBy,creationDate) VALUES (#{userCode},#{userName},#{userPassword},#{gender},#{birthday},#{phone},#{address},#{userRole},#{createdBy},#{creationDate});
+    </insert>
+</mapper>

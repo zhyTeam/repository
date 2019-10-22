@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -36,3 +37,10 @@
     </div>
   </body>
 </html>
+=======
+<html>
+<body>
+<h2>Hello World!</h2>
+</body>
+</html>
+>>>>>>> 54ddb15c99ba47f956b09f10ddf36c00d26bfe91
